@@ -3,7 +3,7 @@ aiohttp
 asgiref
 aria2p
 asyncio
-apscheduler
+APScheduler==3.6.3
 beautifulsoup4
 bencoding
 bencode.py
