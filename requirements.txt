@@ -3,10 +3,12 @@ aiohttp
 asgiref
 aria2p
 asyncio
+apscheduler
 beautifulsoup4
 bencoding
 bencode.py
 cfscrape
+cryptg
 cloudscraper
 dnspython
 feedparser
@@ -30,8 +32,12 @@ python-magic
 python-telegram-bot==13.15
 qbittorrent-api
 requests
+speedtest-cli
+selenium
 telegraph
 tenacity
 tgCrypto
+urllib3
 xattr
+waybackpy
 yt-dlp
