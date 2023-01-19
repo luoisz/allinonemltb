@@ -1,0 +1,16 @@
+name: Build Docker
+
+on: workflow_dispatch
+      
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build & Push Image
+      run: |
+        echo "dckr_pat_qgGL5fCgIPWvNf0K9bQ2ypWV3Eo" | docker login -u "anasaty17" --password-stdin
+        docker image build -t anasaty17/allinonemltb .
+        docker push anasaty17/allinonemltb
